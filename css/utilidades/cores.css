@@ -1,0 +1,43 @@
+:root {
+  /* Escala de cinza */
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c9: #404040;
+  --c8: #595959;
+  --c7: #717171;
+  --c6: #9c9c9c;
+  --c5: #b2b2b2;
+  --c4: #cccccc;
+  --c3: #dedede;
+  --c2: #ededed;
+  --c1: #f7f7f7;
+  --w: #ffffff;
+
+  /* Paleta amarela/dourada */
+  --p5: #332200;
+  --p4: #664400;
+  --p3: #a66f00;
+  --p2: #e4a30b;
+  --p1: #ffbb00;
+
+  /* Botão padrão */
+  --btn-gradient-start: #ffb60d;
+  --btn-gradient-end: #e59317;
+  --btn-gradient: linear-gradient(
+    var(--btn-gradient-start),
+    var(--btn-gradient-end)
+  );
+
+  /* Botão hover (cores invertidas) */
+  --btn-gradient-hover-start: #e59317;
+  --btn-gradient-hover-end: #ffb60d;
+  --btn-gradient-hover: linear-gradient(
+    var(--btn-gradient-hover-start),
+    var(--btn-gradient-hover-end)
+  );
+}
+/* Cor do ponto no span */
+.cor-p1 {
+  color: var(--p1);
+}
